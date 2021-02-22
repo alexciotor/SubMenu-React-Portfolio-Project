@@ -6,13 +6,13 @@ return <nav className="nav-contnet">
 <div className="img">
   <img src={logo} alt=""/>
 </div>
-<div className="content">
+<div className="content-btn">
  <button className="btn">products</button>
  <button className="btn">developers</button>
  <button className="btn">company</button>
 </div>
 <div className="siginin">
-  <button className="sigin-in">sign in</button>
+  <button className="sign-in ">sign in</button>
 </div>
 </div>
 </nav>
