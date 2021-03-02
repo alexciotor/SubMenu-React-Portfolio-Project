@@ -1,3 +1,13 @@
+import {useGlobalContext} from './context'
 export const SideBar= ()=>{
-    return <h1>this is the SideBar</h1>
+const data = useGlobalContext()
+const {SideBar} = useGlobalContext()
+
+
+return <div className ='aside' >
+
+</div>
+ 
+ 
+    return 
 }
